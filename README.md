@@ -1,6 +1,6 @@
 # Dracula for [Replugged](https://replugged.dev)
 
-> A dark theme for [Replugged](https:/replugged.dev).
+> A dark theme for [Replugged](https://replugged.dev).
 
 ![Screenshot](./screenshot.png)
 
