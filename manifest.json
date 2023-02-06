@@ -7,10 +7,10 @@
     "discordID": "606526727753170969",
     "github": "mrhappyma"
   },
-  "version": "1.1.0",
+  "version": "1.3.0",
   "updater": {
     "type": "github",
-    "id": "mrhappyma/replugged-dracula"
+    "id": "mrhappyma/dracula-replugged"
   },
   "license": "MIT",
   "type": "replugged-theme",
