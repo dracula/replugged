@@ -1,5 +1,5 @@
 {
-  "id": "dev.mrhappyma.Dracula",
+  "id": "me.userexe.dracula",
   "name": "Dracula",
   "description": "Dracula theme for Discord",
   "author": {
@@ -10,7 +10,7 @@
   "version": "1.1.0",
   "updater": {
     "type": "github",
-    "id": "mrhappyma/discord-dracula"
+    "id": "mrhappyma/replugged-dracula"
   },
   "license": "MIT",
   "type": "replugged-theme",
