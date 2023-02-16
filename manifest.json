@@ -1,16 +1,16 @@
 {
-  "id": "me.userexe.dracula",
+  "id": "com.draculatheme.dracula-replugged",
   "name": "Dracula",
-  "description": "Dracula theme for Discord",
+  "description": "Dark theme for Replugged ",
   "author": {
-    "name": "Dominic Ruggiero",
-    "discordID": "606526727753170969",
-    "github": "mrhappyma"
+    "name": "Dracula",
+    "discordID": "971847378011308102",
+    "github": "dracula"
   },
-  "version": "1.3.0",
+  "version": "2.0.0",
   "updater": {
     "type": "github",
-    "id": "mrhappyma/dracula-replugged"
+    "id": "dracula/replugged"
   },
   "license": "MIT",
   "type": "replugged-theme",
