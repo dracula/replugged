@@ -6,7 +6,9 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/replugged](https://draculatheme.com/replugged).
+[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?identifier=dracula/replugged&source=github)
+
+All instructions can be found at [draculatheme.com/replugged](https://draculatheme.com/replugged). soon:tm:
 
 ## Team
 
