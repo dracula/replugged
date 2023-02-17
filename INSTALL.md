@@ -8,9 +8,9 @@
 
 Just click this button ^
 
-### Manual instillation
+### Manual installation
 
-1. [Download the latest version](https://github.com/dracula/replugged/releases/download/v2.0.0/com.draculatheme.dracula-replugged.asar)
+1. [Download the latest version](https://github.com/dracula/replugged/releases/latest/download/com.draculatheme.dracula-replugged.asar)
 2. Open Discord, go to settings > Replugged > Themes and click open themes folder
 3. Drag your downloaded theme file into the folder
 4. Reload Discord (cntrl+R) to apply the theme!
