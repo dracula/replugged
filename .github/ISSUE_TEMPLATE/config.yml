@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Does something look a bit off?
+    url: https://github.com/dracula/betterdiscord/issues/new
+    about: The CSS is maintained in the repo for the betterdiscord theme, please open an issue there.
