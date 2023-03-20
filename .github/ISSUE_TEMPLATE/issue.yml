@@ -1,0 +1,10 @@
+name: Issue installing or updating
+description: Something not related to the theme styling
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: Description
+      description: What is going wrong?
+    validations:
+      required: true
