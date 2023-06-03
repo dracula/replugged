@@ -9,8 +9,8 @@
   },
   "version": "2.0.0",
   "updater": {
-    "type": "github",
-    "id": "dracula/replugged"
+    "type": "store",
+    "id": "com.draculatheme.dracula-replugged"
   },
   "license": "MIT",
   "type": "replugged-theme",
