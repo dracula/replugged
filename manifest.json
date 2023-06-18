@@ -7,12 +7,14 @@
     "discordID": "971847378011308102",
     "github": "dracula"
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "updater": {
     "type": "store",
     "id": "com.draculatheme.dracula-replugged"
   },
   "license": "MIT",
   "type": "replugged-theme",
-  "main": "src/main.css"
+  "main": "src/main.css",
+  "image": "https://media.discordapp.net/attachments/1075970092191465553/1119822863671775362/dracula.png",
+  "source": "https://github.com/dracula/replugged/"
 }
