@@ -15,11 +15,11 @@ devDependencies:
     specifier: ^20.8.10
     version: 20.8.10
   prettier:
-    specifier: ^3.0.3
-    version: 3.0.3
+    specifier: ^3.1.0
+    version: 3.1.0
   replugged:
     specifier: 4.7.6
-    version: 4.7.6(@codemirror/view@6.7.3)(@lezer/common@1.0.2)
+    version: 4.7.6(@codemirror/view@6.7.3)(@lezer/common@1.1.1)
 
 packages:
 
@@ -56,6 +56,20 @@ packages:
       '@codemirror/state': 6.3.1
       '@codemirror/view': 6.7.3
       '@lezer/common': 1.0.2
+    dev: true
+
+  /@codemirror/autocomplete@6.4.0(@codemirror/language@6.9.2)(@codemirror/state@6.3.1)(@codemirror/view@6.7.3)(@lezer/common@1.1.1):
+    resolution: {integrity: sha512-HLF2PnZAm1s4kGs30EiqKMgD7XsYaQ0XJnMR0rofEWQ5t5D60SfqpDIkIh1ze5tiEbyUWm8+VJ6W1/erVvBMIA==}
+    peerDependencies:
+      '@codemirror/language': ^6.0.0
+      '@codemirror/state': ^6.0.0
+      '@codemirror/view': ^6.0.0
+      '@lezer/common': ^1.0.0
+    dependencies:
+      '@codemirror/language': 6.9.2
+      '@codemirror/state': 6.3.1
+      '@codemirror/view': 6.7.3
+      '@lezer/common': 1.1.1
     dev: true
 
   /@codemirror/commands@6.2.0:
@@ -2015,7 +2029,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /chrome-trace-event@1.0.3:
@@ -2047,10 +2061,10 @@ packages:
     engines: {node: '>=0.8'}
     dev: true
 
-  /codemirror@6.0.1(@lezer/common@1.0.2):
+  /codemirror@6.0.1(@lezer/common@1.1.1):
     resolution: {integrity: sha512-J8j+nZ+CdWmIeFIGXEFbFPtpiYacFMDR8GlHK3IyHQJMCaVRfGx9NT+Hxivv1ckLWPvNdZqndbr/7lVhrf/Svg==}
     dependencies:
-      '@codemirror/autocomplete': 6.4.0(@codemirror/language@6.9.2)(@codemirror/state@6.3.1)(@codemirror/view@6.7.3)(@lezer/common@1.0.2)
+      '@codemirror/autocomplete': 6.4.0(@codemirror/language@6.9.2)(@codemirror/state@6.3.1)(@codemirror/view@6.7.3)(@lezer/common@1.1.1)
       '@codemirror/commands': 6.2.0
       '@codemirror/language': 6.9.2
       '@codemirror/lint': 6.1.0
@@ -2397,14 +2411,6 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
-
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
 
   /fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -3104,8 +3110,8 @@ packages:
       posthtml-render: 3.0.0
     dev: true
 
-  /prettier@3.0.3:
-    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+  /prettier@3.1.0:
+    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -3178,7 +3184,7 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /replugged@4.7.6(@codemirror/view@6.7.3)(@lezer/common@1.0.2):
+  /replugged@4.7.6(@codemirror/view@6.7.3)(@lezer/common@1.1.1):
     resolution: {integrity: sha512-E7qxlBRlvpQiXz3zXUO/IH0TQqXxgLmQCO/BMugNDqqtWEbm3W5VIIXYnnrPce5UA0n8TgIzxh0fORl+22sS2w==}
     engines: {node: '>=18.0.0', pnpm: '>=8.0.0'}
     hasBin: true
@@ -3193,7 +3199,7 @@ packages:
       '@octokit/rest': 20.0.2
       adm-zip: 0.5.10
       chalk: 5.3.0
-      codemirror: 6.0.1(@lezer/common@1.0.2)
+      codemirror: 6.0.1(@lezer/common@1.1.1)
       esbuild: 0.19.6
       esbuild-sass-plugin: 2.16.0(esbuild@0.19.6)
       esm: 3.2.25
