@@ -1,6 +1,6 @@
 {
   "name": "replugged-dracula",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Dark theme for Replugged",
   "engines": {
     "node": ">=14.0.0"
