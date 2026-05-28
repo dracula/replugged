@@ -2,13 +2,14 @@
 
 #### Automatic installation
 
-To automatically install the theme, click the button below:
+Use the install link below to add the theme directly through Replugged:
 
-[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?identifier=com.draculatheme.dracula-replugged)
+[Install in Replugged](https://replugged.dev/install?identifier=com.draculatheme.dracula-replugged)
 
 #### Manual installation
 
 1. [Download the latest version](https://github.com/dracula/replugged/releases/latest/download/com.draculatheme.dracula-replugged.asar)
-2. Open Discord, go to **`Settings` > `Replugged` > `Themes` and click `Open themes folder`**
-3. Drag your downloaded theme file into the folder
-4. Reload Discord (`Ctrl + R`) to apply the theme!
+2. Open Discord and go to **`Settings` > `Replugged` > `Themes`**.
+3. Click **`Open themes folder`**.
+4. Drag the downloaded `.asar` file into the themes folder.
+5. Reload Discord (`Ctrl + R`) to apply the theme.
