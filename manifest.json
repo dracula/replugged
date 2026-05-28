@@ -1,12 +1,19 @@
 {
   "id": "com.draculatheme.dracula-replugged",
   "name": "Dracula",
-  "description": "Dark theme for Replugged ",
-  "author": {
-    "name": "Dracula",
-    "discordID": "971847378011308102",
-    "github": "dracula"
-  },
+  "description": "Dark theme for Replugged",
+  "author": [
+    {
+      "name": "Dominic",
+      "discordID": "606526727753170969",
+      "github": "mrhappyma"
+    },
+    {
+      "name": "Dracula",
+      "discordID": "971847378011308102",
+      "github": "dracula"
+    }
+  ],
   "version": "3.1.0",
   "updater": {
     "type": "store",
@@ -15,6 +22,6 @@
   "license": "MIT",
   "type": "replugged-theme",
   "main": "src/main.css",
-  "image": "https://media.discordapp.net/attachments/1075970092191465553/1119822863671775362/dracula.png",
+  "image": "https://github.com/dracula/replugged/blob/main/screenshot.png?raw=true",
   "source": "https://github.com/dracula/replugged/"
 }
